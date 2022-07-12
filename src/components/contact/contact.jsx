@@ -22,7 +22,7 @@ return (
 <article className='contact_option'>
 <AiOutlineMail className='contact_option-icon'/>
 <h4>Email</h4>
-<h5>muhammadawab82002@gmail.com</h5>
+<h5 className='email-a'>muhammadawab82002@gmail.com</h5>
 <a href="mailto:muhammadawab82002@gmail.com">Send a Message</a>
 </article>
 <article className='contact_option'>

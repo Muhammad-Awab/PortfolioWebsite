@@ -13,23 +13,18 @@ const Services = () => {
     </div>
     <ul className='service_list'>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>WordPress is a content management system (CMS), software used to build, modify, and maintain websites.</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>WordPress is a content management system (CMS) that allows you to host and build websites</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>WordPress contains plugin architecture and a template system, so you can customize any website to fit your business, blog, portfolio, or online store.</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>    WordPress is free, as are many of its add-ons. Still, at the very least you'll need to spend money on both hosting and a domain.</p>
       </li>
-      <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
-      </li>
-      <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
-      </li>
+     
     </ul>
   </article>
   <article className='service'>

@@ -36,7 +36,8 @@ const About = () => {
 <small>80+ Completed</small>
           </article>
         </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi repellat accusamus eligendi nulla sit eum odit at beatae aperiam temporibus veniam quos vel, aut reprehenderit dignissimos dicta obcaecati eos corrupti.</p>
+        <p>Hey, I'm Awab
+Full Stack Web Developer From Pakistan. I created custom websites to help business do better online.</p>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
       </div>
     </div>

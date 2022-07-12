@@ -29,6 +29,9 @@ transition: var(--transition);
     margin-top: 0.7rem;
     display: inline-block;
 }
+.email-a{
+    font-size: 0.8rem;
+}
 /* ############################## Form ############# */
 form{
     display: flex;
