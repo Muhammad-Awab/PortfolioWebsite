@@ -13,17 +13,18 @@ const Services = () => {
     </div>
     <ul className='service_list'>
       <li><BiCheck className='service_list-icon'/>
-      <p>WordPress is a content management system (CMS), software used to build, modify, and maintain websites.</p>
+      <p>Custom WordPress. Website Development.</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>WordPress is a content management system (CMS) that allows you to host and build websites</p>
+      <p>Customization. Theme Development & Customization</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>WordPress contains plugin architecture and a template system, so you can customize any website to fit your business, blog, portfolio, or online store.</p>
+      <p>Blog Development. Blog Development.</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>    WordPress is free, as are many of its add-ons. Still, at the very least you'll need to spend money on both hosting and a domain.</p>
+      <p>Blog Development. Blog Development.</p>
       </li>
+      
      
     </ul>
   </article>
@@ -33,22 +34,22 @@ const Services = () => {
     </div>
     <ul className='service_list'>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>HTML5 development</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>JavaScript development</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>CSS3 development</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>UI/UX design</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Responsive and Mobile design</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>React js Development</p>
       </li>
     </ul>
   </article>
@@ -58,22 +59,22 @@ const Services = () => {
     </div>
     <ul className='service_list'>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Login Authentication</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Databases</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Email Notifications</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Data Management</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Sql Database Integration</p>
       </li>
       <li><BiCheck className='service_list-icon'/>
-      <p>Lorem ipsum dolor, sit amet consectetur elit.</p>
+      <p>Firebase</p>
       </li>
     </ul>
   </article>
