@@ -1,8 +1,10 @@
 .container.testimonials_container{
     width: 40%;
     padding-bottom: 4rem;
-    z-index: -1;
     
+}
+.testimonial{
+    z-index: -1;
 }
 .client_avatar{
     width: 4rem;
