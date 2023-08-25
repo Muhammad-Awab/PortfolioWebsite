@@ -3,13 +3,25 @@ import './Header.css'
 import CTA from './CTA'
 import img from '../../assets/awab1.png'
 import HeaderSocials from './HeaderSocials'
+import Typewriter from 'typewriter-effect';
+
 const Header = () => {
   return (
     <header>
       <div className="container header_container">
 <h5>Hello I'm</h5>
 <h1>Muhammad Awab</h1>
-<h5 className="text-light">Full Stack Developer</h5>
+
+<h5 className="text-light">
+<Typewriter
+  options={{
+    strings: ['Full stack Developer', 'Devops Engineer'],
+    autoStart: true,
+    delay: 75,
+    loop: true,
+  }}
+/>
+</h5>
 <CTA />
 <HeaderSocials/>
 <div className="me">

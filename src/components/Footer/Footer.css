@@ -4,6 +4,8 @@ padding: 3rem 0rem;
 text-align: center;
 font-size: 0.9rem;
 margin-top: 7rem;
+margin-bottom: -21rem !important;
+
 }
 footer a{
     color: var(--color-bg);

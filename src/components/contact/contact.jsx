@@ -27,9 +27,9 @@ return (
 </article>
 <article className='contact_option'>
 <BsMessenger className='contact_option-icon'/>
-<h4>Messenger</h4>
-<h5>Message me</h5>
-<a href="https://m.me/muhammad.awab.338">Send a Message</a>
+<h4>Fiverr</h4>
+<h5>Level 1 Seller</h5>
+<a href="https://www.fiverr.com/awabahmed310">Contact</a>
 </article>
 <article className='contact_option'>
 <BsWhatsapp className='contact_option-icon'/>

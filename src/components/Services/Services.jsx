@@ -7,27 +7,7 @@ const Services = () => {
 <h5>What I Offer</h5>
 <h2>Services</h2>
 <div className="container services_container">
-  <article className='service'>
-    <div className="service_head">
-      <h3>Wordpress</h3>
-    </div>
-    <ul className='service_list'>
-      <li><BiCheck className='service_list-icon'/>
-      <p>Custom WordPress. Website Development.</p>
-      </li>
-      <li><BiCheck className='service_list-icon'/>
-      <p>Customization. Theme Development & Customization</p>
-      </li>
-      <li><BiCheck className='service_list-icon'/>
-      <p>Blog Development. Blog Development.</p>
-      </li>
-      <li><BiCheck className='service_list-icon'/>
-      <p>Blog Development. Blog Development.</p>
-      </li>
-      
-     
-    </ul>
-  </article>
+ 
   <article className='service'>
     <div className="service_head">
       <h3>Frontened Development</h3>
@@ -51,6 +31,30 @@ const Services = () => {
       <li><BiCheck className='service_list-icon'/>
       <p>React js Development</p>
       </li>
+    </ul>
+  </article>
+  <article className='service'>
+    <div className="service_head">
+      <h3>Devops</h3>
+    </div>
+    <ul className='service_list'>
+      <li><BiCheck className='service_list-icon'/>
+      <p>Automates code integration, build, and testing for rapid feedback.</p>
+      </li>
+      <li><BiCheck className='service_list-icon'/>
+      <p>Automates deployment pipelines to ensure consistent and efficient software releases.</p>
+      </li>
+      <li><BiCheck className='service_list-icon'/>
+      <p>Manages infrastructure and application configurations through code.</p>
+      </li>
+      <li><BiCheck className='service_list-icon'/>
+      <p>Uses containers and automation to deploy and manage applications at scale.
+</p>
+
+      </li>
+   
+      
+     
     </ul>
   </article>
   <article className='service'>

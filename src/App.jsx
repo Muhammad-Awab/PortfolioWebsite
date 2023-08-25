@@ -10,7 +10,7 @@ import Contact from './components/contact/contact'
 import Footer from './components/Footer/Footer'
 const App = () => {
   return (
-    <>
+    <div>
     <Header/>
     <Nav/>
     <About/>
@@ -20,7 +20,7 @@ const App = () => {
     <Testimonials/>
     <Contact/>
     <Footer/>
-    </>
+    </div>
   )
 }
 
