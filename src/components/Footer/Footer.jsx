@@ -3,6 +3,8 @@ import './Footer.css'
 import {IoLogoFacebook} from 'react-icons/io'
 import {BsInstagram} from 'react-icons/bs'
 import {BsTwitter} from 'react-icons/bs'
+import {BsLinkedin} from 'react-icons/bs'
+
 const Footer = () => {
   return (
   <footer >
@@ -17,9 +19,11 @@ const Footer = () => {
 <li><a href="#contact">Contact</a></li>
 </ul>
 <div className="footer_socials">
-  <a href="https://facebook.com"><IoLogoFacebook/></a>
-  <a href="https://instagram.com"><BsInstagram/></a>
-  <a href="https://twitter.com"><BsTwitter/></a>
+  <a href="https://www.facebook.com/muhammad.awab.338"><IoLogoFacebook/></a>
+  <a href="https://www.instagram.com/awab4850/"><BsInstagram/></a>
+  <a href="https://twitter.com/MuhammadawabAh2"><BsTwitter/></a>
+  <a href="https://www.linkedin.com/in/muhammadawab/" target="_blank" rel="noopener noreferrer"><BsLinkedin/></a>
+
 </div>
 <div className="copy_right">
   <small>&copy; Awab Portfolio. All rights reserved.</small>

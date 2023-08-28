@@ -13,42 +13,42 @@ const Portfolio = () => {
       image:IMG1,
       title:'Resturant Food Delievery',
       gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://dribbble.com/shots/18603080-MyStudio-Dashboard-Studio-Management'
+      demo:'https://github.com/Muhammad-Awab/PizzaApplication'
     },
     {
       id:2,
       image:IMG2,
       title:'Pizza Delievery Website',
       gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://dribbble.com/shots/18603080-MyStudio-Dashboard-Studio-Management'
+      demo:'https://github.com/Muhammad-Awab/PizzaDelieveryApplication'
     },
     {
       id:3,
       image:IMG3,
       title:'Car Showroom Website',
       gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://dribbble.com/shots/18603080-MyStudio-Dashboard-Studio-Management'
+      demo:'https://github.com/Muhammad-Awab/Car-Show-Room-Website'
     },
     {
       id:4,
       image:IMG4,
       title:'Todos Item List Website',
       gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://dribbble.com/shots/18603080-MyStudio-Dashboard-Studio-Management'
+      demo:'https://github.com/Muhammad-Awab/WeatherAPP_Using_API_TODOAPP'
     },
     {
       id:5,
       image:IMG5,
       title:'Live Country Weather Website',
       gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://dribbble.com/shots/18603080-MyStudio-Dashboard-Studio-Management'
+      demo:'https://github.com/Muhammad-Awab/WeatherAPP_Using_API_TODOAPP'
     },
     {
       id:6,
       image:IMG6,
-      title:'This is the portfolio item title',
+      title:'Call Center Application',
       gitub:'https://github.com/Muhammad-Awab',
-      demo:'https://dribbble.com/shots/18603080-MyStudio-Dashboard-Studio-Management'
+      demo:'https://github.com/Muhammad-Awab/CallCenterApplication'
     }
   ]
   return (
