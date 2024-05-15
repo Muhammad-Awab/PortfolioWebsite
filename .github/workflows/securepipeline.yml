@@ -19,11 +19,25 @@ jobs:
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           echo -e "StrictHostKeyChecking no\n" >> ~/.ssh/config
+          
+      - name: "Run FOSSA Scan"
+        uses: fossas/fossa-action@v1
+        with:
+          api-key: ${{secrets.fossaApiKey}}
+
+      - name: "Run FOSSA Test"
+        uses: fossas/fossa-action@v1
+        with:
+          api-key: ${{secrets.fossaApiKey}}
+          run-tests: true
+          
       - name: Build Application
         run: |
           npm install 
           
           npm run build
+
+        
           
       - name: Deploy to EC2
         run: |
