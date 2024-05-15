@@ -29,5 +29,5 @@ jobs:
           ls
       - name: Deploy to EC2
         run: |
-          scp -o StrictHostKeyChecking=no -r * ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }}:/home/ubuntu/
+          scp -o StrictHostKeyChecking=no -r build ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }}:/home/ubuntu/
           ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }} 'cd /home/ubuntu && npm install && pm2 delete my-app || true && pm2 restart app.js'
