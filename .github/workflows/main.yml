@@ -28,4 +28,4 @@ jobs:
       - name: Deploy to EC2
         run: |
           scp -o StrictHostKeyChecking=no -r build ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }}:/home/ubuntu/
-          ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }} 'cd /home/ubuntu &&  serve -s build/ &'
+          ssh -o StrictHostKeyChecking=no ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }} 'cd /home/ubuntu && serve -s build/ && exit'
