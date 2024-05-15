@@ -20,6 +20,12 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           echo -e "StrictHostKeyChecking no\n" >> ~/.ssh/config
           
+      - name: Run the Vuln Django Containers
+        run: docker-compose up -d
+      - name: Run HawkScan
+        uses: stackhawk/hawkscan-action@v1.2.1
+        with:
+          apiKey: ${{ secrets.HAWK_API_KEY }}    
           
       - name: "Run FOSSA Scan"
         uses: fossas/fossa-action@v1
