@@ -20,16 +20,36 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           echo -e "StrictHostKeyChecking no\n" >> ~/.ssh/config
           
-    
+      - name: Run HawkScan
+        uses: stackhawk/hawkscan-action@v2
+        with:
+          apiKey: ${{ secrets.HAWK_API_KEY }} 
+          
+      - name: Run SonarQube Scan
+        uses: sonarsource/sonarqube-scan-action@v1.1
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          projectBaseDir: . # Set this to your project directory if it's not the root
+          
+      - name: "Run FOSSA Scan"
+        uses: fossas/fossa-action@v1
+        with:
+          api-key: ${{secrets.fossaApiKey}}
+
+      - name: "Run FOSSA Test"
+        uses: fossas/fossa-action@v1
+        with:
+          api-key: ${{secrets.fossaApiKey}}
+          run-tests: true
+
+
           
       - name: Build Application
         run: |
           npm install 
-          
           npm run build
-
         
-          
       - name: Deploy to EC2
         run: |
           scp -o StrictHostKeyChecking=no -r build ${{ secrets.EC2_INSTANCE_USER }}@${{ secrets.EC2_INSTANCE_IP }}:/home/ubuntu/
