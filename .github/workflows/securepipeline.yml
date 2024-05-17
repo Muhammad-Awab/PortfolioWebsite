@@ -25,11 +25,7 @@ jobs:
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }} 
           
-      - name: SonarQube Scans
-      - uses: sonarsource/sonarqube-scan-action@master
-        env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+
           
       - name: "Run FOSSA Scan"
         uses: fossas/fossa-action@v1
