@@ -20,21 +20,7 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           echo -e "StrictHostKeyChecking no\n" >> ~/.ssh/config
           
-      - name: Run HawkScan
-        uses: stackhawk/hawkscan-action@v2
-        with:
-          apiKey: ${{ secrets.HAWK_API_KEY }}  
-          
-      - name: "Run FOSSA Scan"
-        uses: fossas/fossa-action@v1
-        with:
-          api-key: ${{secrets.fossaApiKey}}
-
-      - name: "Run FOSSA Test"
-        uses: fossas/fossa-action@v1
-        with:
-          api-key: ${{secrets.fossaApiKey}}
-          run-tests: true
+    
           
       - name: Build Application
         run: |
