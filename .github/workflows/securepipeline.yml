@@ -25,7 +25,7 @@ jobs:
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }} 
           
-      - name: SonarQube Scan
+      - name: SonarQube Scans
       - uses: sonarsource/sonarqube-scan-action@master
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
