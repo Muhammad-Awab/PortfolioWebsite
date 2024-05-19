@@ -52,7 +52,7 @@ jobs:
         with:
           api-key: ${{secrets.fossaApiKey}}
           run-tests: true
-        continue-on-error: true
+        continue-on-error: false
 
 
           
