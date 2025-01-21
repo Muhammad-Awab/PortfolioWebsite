@@ -21,10 +21,10 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           echo -e "StrictHostKeyChecking no\n" >> ~/.ssh/config
           
-      # - name: Run HawkScan
-      #   uses: stackhawk/hawkscan-action@v2
-      #   with:
-      #     apiKey: ${{ secrets.HAWK_API_KEY }} 
+      - name: Run HawkScan
+        uses: stackhawk/hawkscan-action@v2
+        with:
+          apiKey: ${{ secrets.HAWK_API_KEY }} 
 
       - name: Set up JDK 17
         uses: actions/setup-java@v3
