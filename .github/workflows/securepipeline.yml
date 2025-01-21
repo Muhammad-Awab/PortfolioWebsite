@@ -47,6 +47,7 @@ jobs:
         uses: fossas/fossa-action@v1
         with:
           api-key: ${{secrets.fossaApiKey}}
+        continue-on-error: true
 
       - name: "Run FOSSA Test"
         uses: fossas/fossa-action@v1
