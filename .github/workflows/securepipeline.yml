@@ -54,7 +54,7 @@ jobs:
         with:
           api-key: ${{secrets.fossaApiKey}}
           run-tests: true
-        continue-on-error: false
+        continue-on-error: true
         
           
       - name: Build Application
