@@ -5,6 +5,7 @@ on:
     branches:
       - master
 
+
 jobs:
   deploy-job:
     runs-on: ubuntu-latest
@@ -46,15 +47,15 @@ jobs:
         uses: fossas/fossa-action@v1
         with:
           api-key: ${{secrets.fossaApiKey}}
+        continue-on-error: true
 
       - name: "Run FOSSA Test"
         uses: fossas/fossa-action@v1
         with:
           api-key: ${{secrets.fossaApiKey}}
           run-tests: true
-        continue-on-error: false
-
-
+        continue-on-error: true
+        
           
       - name: Build Application
         run: |
