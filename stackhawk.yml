@@ -1,4 +1,4 @@
 app:
-  applicationId: b2cbb423-9fe8-4ed9-bf4a-cd1a703b4789
-  host: http://52.91.157.11:3000
+  applicationId: 79e947da-25ad-422c-ba2a-3697b167b5a5
+  host: http://34.239.49.59:3000
   env: Development
